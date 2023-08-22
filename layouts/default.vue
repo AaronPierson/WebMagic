@@ -1,8 +1,10 @@
 <template>
-    <div>
-      <header>
-        <nav>
-          <ul>
+  <header class="navbar">
+        <nav class="nav-container">
+          <div class="logo">
+            <NuxtLink to="/"></NuxtLink>
+          </div>
+          <ul class="nav-menu">
             <li>
               <NuxtLink to="/">Home</NuxtLink>
             </li>
@@ -13,14 +15,90 @@
               <NuxtLink to="/blog">Adventure Log</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/#contact">Contact</NuxtLink>
+              <NuxtLink to="/Achievements">Scroll of Achievements</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/Achievements">Achievements</NuxtLink>
+              <NuxtLink to="/#contact">Send a raven</NuxtLink>
             </li>
           </ul>
         </nav>
       </header>
-      <slot />
-    </div>
-  </template>
+  <main>
+    <slot />
+  </main>
+</template>
+
+<style>
+/* Navbar Styles */
+.navbar {
+  background-image: url('/parchment-navbar.jpg'); /* Use a parchment-like background image */
+  background-size: cover;
+  font-family: 'YourUniqueFont', cursive; /* Use a unique and creative font */
+  /* color: #5a442c; */
+   /* Dark text color for readability */
+  margin: 1%;
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #884e19; /* Change color on hover */
+}
+
+body {
+  /* Other styles for your container */
+  font-family: 'Marck Script', cursive;
+  /* Adjust text color to match parchment look */
+  color: #090903;
+  /* color: #5a442c; */
+  font-size: large;
+
+  /* Add padding for content spacing */
+  padding: 20px;
+  margin: 2em;
+
+  /* Set the background image to your parchment texture */
+  background-image: url('/parchment-image.jpg'); /* Use the correct path to your image */
+  background-size: cover;
+  background-attachment: fixed; /* Ensures the background remains fixed */
+
+  /* Add a background color to ensure readability */
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly lighter background color */
+
+  /* Optionally, set a background blend mode for a more textured effect */
+  background-blend-mode: multiply; /* Adjust blend mode to your preference */
+
+  /* Add a soft border to mimic the appearance of paper */
+  border-radius: 5px; /* Soften the edges */
+  box-sizing: border-box; /* Include the border in the element's dimensions */
+}
+</style>
