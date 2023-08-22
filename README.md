@@ -40,3 +40,7 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+
+## License
+<a href="https://www.freepik.com/free-photo/grunge-paper-background_5203416.htm#query=parchment%20paper%20background&position=4&from_view=keyword&track=ais">Image by kjpargeter</a> on Freepik
