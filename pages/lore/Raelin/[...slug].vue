@@ -1,4 +1,9 @@
 <template>
+  <head>
+    <title>Raelin</title>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Marck Script">
+  </head>
   <main class="parchment-background">
     <ContentDoc />
   </main>
@@ -7,8 +12,11 @@
 <style>
 .parchment-background {
   /* Other styles for your container */
-  font-family: 'YourParchmentFont', cursive;
-  color: #5a442c; /* Adjust text color to match parchment look */
+  font-family: 'Marck Script', cursive;
+  /* Adjust text color to match parchment look */
+  color: #090903;
+  /* color: #5a442c; */
+  font-size: large;
 
   /* Add padding for content spacing */
   padding: 20px;
