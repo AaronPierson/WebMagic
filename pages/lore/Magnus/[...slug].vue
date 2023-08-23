@@ -12,7 +12,7 @@
 <style>
 .parchment-background {
   /* Other styles for your container */
-  font-family: 'Lugrasimo';
+  font-family: 'Lugrasimo', cursive;
   color: #5a442c; /* Adjust text color to match parchment look */
   color: #090903; /* Adjust text color to match parchment look */
 

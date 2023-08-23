@@ -11,7 +11,7 @@
   - [Chapter: The Deity's Influence on Digital Magic](#chapter-the-deitys-influence-on-digital-magic)
   - [Chapter: Conclusion](#chapter-conclusion)
 
-#### Chapter: Introduction to the Web of Fate
+#### [Chapter: Introduction to the Web of Fate](/lore/magnus/intro-to-the-web-of-fate)
 - Historical background and context
 - Early human interpretations of the web
 
