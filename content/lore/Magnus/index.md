@@ -1,7 +1,7 @@
-### Book: "The Chronicles of Historian Magnus"
+### Book: "The Web Unveiled: Aeluria's Digital Mysteries"
 
 #### Table of Contents
-- [Book: "The Chronicles of Historian Magnus"](#book-the-chronicles-of-historian-magnus)
+- [Book: "The Web Unveiled: Aeluria's Digital Mysteries"](#book-the-web-unveiled-aelurias-digital-mysteries)
   - [Table of Contents](#table-of-contents)
   - [Chapter: Introduction to the Web of Fate](#chapter-introduction-to-the-web-of-fate)
   - [Chapter: Aeluria, the Weaver of Digital Destinies](#chapter-aeluria-the-weaver-of-digital-destinies)

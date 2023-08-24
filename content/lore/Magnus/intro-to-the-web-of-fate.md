@@ -46,15 +46,35 @@ These early "web sorcerers" were akin to wizards of old, delving into cryptic to
 
 Legends spoke of Aeluria's chosen champions, individuals imbued with a touch of her magic. These champions, it was said, possessed an uncanny ability to navigate the Web of Fate and shape its destiny. Some believed that they were granted visions of the digital future, while others claimed that they could commune with Aeluria herself in their dreams.
 
+#### Aeluria's Chosen Champion: [Robert Kahn]
+- **Class:** Artificer
+- **Alignment:** Lawful Neutral
+- **Strength:** 10
+- **Dexterity:** 12
+- **Constitution:** 14
+- **Intelligence:** 18
+- **Wisdom:** 16
+- **Charisma:** 10
+
+#### Aeluria's Chosen Champion: [Vint Cerf]
+- **Class:** Artificer
+- **Alignment:** Lawful Neutral
+- **Strength:** 8
+- **Dexterity:** 16
+- **Constitution:** 10
+- **Intelligence:** 18
+- **Wisdom:** 12
+- **Charisma:** 15
+
 #### Aeluria's Chosen Champion: [Tim Berners-Lee]
 - **Class:** Web Mage
 - **Alignment:** Neutral Good
-- **Strength:** 14
-- **Dexterity:** 16
-- **Constitution:** 12
+- **Strength:** 8
+- **Dexterity:** 14
+- **Constitution:** 10
 - **Intelligence:** 18
-- **Wisdom:** 15
-- **Charisma:** 17
+- **Wisdom:** 16
+- **Charisma:** 15
 
 ### Conclusion
 
