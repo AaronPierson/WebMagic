@@ -1,4 +1,8 @@
 <template>
+  <!-- <head>
+    <link rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  </head> -->
   <header class="navbar">
         <nav class="nav-container">
           <div class="logo">
@@ -12,21 +16,35 @@
               <NuxtLink to="/lore">Lore</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/blog">Adventure Log</NuxtLink>
+              <NuxtLink to="/log">Adventure Log</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/Achievements">Scroll of Achievements</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/#contact">Send a raven</NuxtLink>
+              <NuxtLink to="/raven">Send a raven</NuxtLink>
             </li>
           </ul>
         </nav>
+        <div>
+        <h1>Color mode: {{ $colorMode.value }}</h1>
+        <select v-model="$colorMode.preference">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <!-- <option value="sepia">Sepia</option> -->
+        </select>
+      </div>
       </header>
   <main>
     <slot />
   </main>
 </template>
+
+<script setup>
+  const colorMode = useColorMode()
+  console.log(colorMode.preference)
+</script>
 
 <style>
 /* Navbar Styles */
@@ -100,5 +118,27 @@ body {
   /* Add a soft border to mimic the appearance of paper */
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
+}
+
+/* Add styles for color modes */
+body {
+  background-color: #fff;
+  color: rgba(0,0,0,0.8);
+}
+.dark-mode body{
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+.dark-mode .parchment-background{
+  background-color: #54544b;
+}
+/* .sepia-mode body, .parchment-background {
+  background-color: #f1e7d0;
+  color: #433422;
+} */
+
+.parchment-background {
+  background-color: #f1e7d0;
+  color: #433422;
 }
 </style>
