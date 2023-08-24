@@ -21,7 +21,7 @@
       <!-- Social links -->
       <div class="social-links">
         <!-- <h2>Connect with Me</h2> -->
-        <nuxt-picture src="/img/raven.webp" width="250" height="200" />
+        <!-- <nuxt-picture src="/img/raven.webp" width="250" height="200" /> -->
         <div>
           <a href="#" class="social-icon">
             <Icon :name="'uil:github'" size="48"/>
