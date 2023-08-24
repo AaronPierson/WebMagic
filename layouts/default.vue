@@ -18,9 +18,9 @@
             <li>
               <NuxtLink to="/log">Adventure Log</NuxtLink>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink to="/Achievements">Scroll of Achievements</NuxtLink>
-            </li>
+            </li> -->
             <li>
               <NuxtLink to="/raven">Send a raven</NuxtLink>
             </li>
