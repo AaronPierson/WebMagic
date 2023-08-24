@@ -47,6 +47,13 @@
 </script>
 
 <style>
+@media screen and (min-width: 1600px) {
+  header.navbar{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
 /* Navbar Styles */
 .navbar {
   background-image: url('/parchment-navbar.jpg'); /* Use a parchment-like background image */
