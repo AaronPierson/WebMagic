@@ -4,39 +4,74 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lugrasimo">
   </head>
-  <main class="parchment-background">
-    <ContentDoc />
-  </main>
+
+  <div class="parchment-background">
+    <div class="side-image left-image"></div>
+    <div class="side-image right-image"></div>
+    <div class="parchment-container">
+      <div class="parchment-content">
+        <!-- Your chapter content goes here -->
+        <ContentDoc />
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>
+/* Styles for the parchment background */
+@media screen and (min-width: 1600px) {
 .parchment-background {
-  /* Other styles for your container */
-  font-family: 'Lugrasimo', cursive;
-  color: #5a442c; /* Adjust text color to match parchment look */
-  color: #090903; /* Adjust text color to match parchment look */
-
-
-  /* Add padding for content spacing */
-  padding: 20px;
-
-  /* Optionally, apply box-shadow or border to enhance the parchment effect */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow properties */
-
   /* Set the background image to your parchment texture */
   background-image: url('/parchment-image.jpg'); /* Use the correct path to your image */
   background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
   background-attachment: fixed; /* Ensures the background remains fixed */
-
-  /* Add a background color to ensure readability */
   background-color: rgba(255, 255, 255, 0.95); /* Slightly lighter background color */
-
-  /* Optionally, set a background blend mode for a more textured effect */
   background-blend-mode: overlay; /* Adjust blend mode to your preference */
-
-  /* Add a soft border to mimic the appearance of paper */
   border: 1px solid #e7c877; /* Adjust the color to match parchment */
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
+  padding: 20px; /* Add padding for content spacing */
+  font-family: 'Lugrasimo', cursive;
+  color: #5a442c; /* Adjust text color to match parchment look */
+  color: #090903; /* Adjust text color to match parchment look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow properties */
+}
+
+/* Styles for the side images */
+.side-image {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 50px; /* Adjust the width as needed */
+  background-image: url('/img/test.jpg'); /* Your side image */
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* Ensure side images are on top of parchment */
+}
+
+.left-image {
+  left: 0;
+}
+
+.right-image {
+  right: 0;
+}
+
+/* Styles for the parchment container */
+.parchment-container {
+  position: relative;
+  margin: 0 25%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  z-index: 2; /* Ensure the parchment content is on top of side images */
+
+}
+
+/* Your existing content styles */
+.parchment-content {
+  /* Your chapter content styles */
+
+}
 }
 </style>
