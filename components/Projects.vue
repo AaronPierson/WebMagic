@@ -6,7 +6,7 @@
         <ul class="portfolio-grid">
             <li v-for="(project, index) in projects" :key="index">
                 <div class="portfolio-card">
-                    <nuxt-img :src="project.image" alt="Project Image" sizes="sm:100vw md:50vw lg:400px" />
+                    <!-- <nuxt-img :src="project.image" alt="Project Image" sizes="sm:100vw md:50vw lg:400px" /> -->
                     <h3>{{ project.title }}</h3>
                     <p>{{ project.description }}</p>
                 </div>
