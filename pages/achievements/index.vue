@@ -3,7 +3,7 @@
     <h1 class="portfolio-header">My Achievements</h1>
     <section class="intro">
         <div class="intro-text">
-        <h2>My Achievements</h2>
+        <!-- <h2>My Achievements</h2> -->
           <p>
             Prepare to embark on an epic journey through my quests and conquests, where each entry reveals a tale of valor and mastery. 
             This enchanted portfolio unveils the most legendary feats of my career, from heroic endeavors to enigmatic job experiences. 
