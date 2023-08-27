@@ -19,18 +19,7 @@
       </form>
   
       <!-- Social links -->
-      <div class="social-links">
-        <!-- <h2>Connect with Me</h2> -->
-        <!-- <nuxt-picture src="/img/raven.webp" width="250" height="200" /> -->
-        <div>
-          <a href="#" class="social-icon">
-            <Icon :name="'uil:github'" size="48"/>
-          </a>
-          <a href="#" class="social-icon">
-            <Icon :name="'mdi:linkedin'" size="48" />
-          </a>
-        </div>
-      </div>
+      <Social/>
     </div>
   </template>
 
@@ -82,43 +71,6 @@
     border-radius: 5px;
   }
   
-  button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #0056b3; /* Slightly darker blue on hover */
-  }
-  
-  .social-links {
-    flex: 1;
-    margin-left: 20px;
-    text-align: center;
-    margin: 20px ;
-    padding: 25px;
-  }
-  
-  .social-links h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333; /* Dark text color */
 
-  }
-  
-  .social-icon {
-    display: inline-block;
-    margin: 10px;
-  }
-
-
-  .social-icon img:hover {
-    transform: scale(1.2); /* Slightly enlarge the icons on hover */
-  }
   </style>
   
