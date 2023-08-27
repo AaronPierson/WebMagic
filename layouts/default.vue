@@ -5,6 +5,15 @@
   </head> -->
   <header class="navbar">
         <nav class="nav-container">
+
+                  <!-- <h1>Color mode: {{ $colorMode.value }}</h1> -->
+        <select v-model="$colorMode.preference"  >
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <!-- <option value="sepia">Sepia</option> -->
+        </select>
+
           <div class="logo">
             <NuxtLink to="/"></NuxtLink>
           </div>
@@ -25,25 +34,46 @@
               <!-- <NuxtLink to="/raven">Send a raven</NuxtLink> -->
             </li>
           </ul>
+
+
         </nav>
         <div>
-        <!-- <h1>Color mode: {{ $colorMode.value }}</h1> -->
-        <select v-model="$colorMode.preference">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <!-- <option value="sepia">Sepia</option> -->
-        </select>
+
       </div>
       </header>
   <main>
     <slot />
   </main>
+  <!-- <CookieControl locale="en" /> -->
+
 </template>
 
 <script setup>
   const colorMode = useColorMode()
   console.log(colorMode.preference)
+
+  const {
+  cookiesEnabled,
+  cookiesEnabledIds,
+  isConsentGiven,
+  isModalActive,
+  moduleOptions,
+} = useCookieControl()
+
+// example: react to a cookie being accepted
+watch(
+  () => cookiesEnabledIds.value,
+  (current, previous) => {
+    if (
+      !previous?.includes('google-analytics') &&
+      current?.includes('google-analytics')
+    ) {
+      // cookie with id `google-analytics` got added
+      window.location.reload() // placeholder for your custom change handler
+    }
+  },
+  { deep: true },
+)
 </script>
 
 <style>
@@ -148,4 +178,6 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
+
+
 </style>
