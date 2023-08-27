@@ -5,14 +5,12 @@
       <h1>
         Aaron Pierson
       </h1>
-      <h4>
-      </h4>
       <!-- Introduction -->
       <div class="introduction">
           <p>
-            <strong> <aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong>
+            <strong><aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong>
           </p>
-
+          <Social/>
           <p>
             🌐 I am Aaron Pierson, known across the enchanted lands as the Web Enchanter.
           </p>
@@ -41,10 +39,6 @@
             know that I stand ready to cast the spells of web enchantment upon your quest. 
             Together, we shall forge a legacy in the digital tapestry of existence! 💫
             </P>
-
-            
-          <!-- I, the deity of web enchantment, welcome you to the <strong>Book of Web Magic</strong>, a portal to the arcane arts of web development.
-          Here, the secrets of the web are woven into the very fabric of existence. Choose your path, adventurer. -->
       </div>
   
       <!-- Chapters -->
@@ -71,32 +65,34 @@
           <p class="chapter-description">
             Explore the magical artifacts I've crafted in the web development realm, each project a testament to my skills.
           </p>
+          <Jobs />
+
         </div>
       </div>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
   import aniText from '../components/aniText.vue'
   
   export default {
     components: {
-      aniText
-    }
+    aniText,
+}
     // Add any data or methods as needed
-  }
-  </script>
+}
+</script>
   
-  <style scoped>
-  .landing-page {
-  margin: 0 5%;
-}
+<style scoped>
+    .landing-page {
+    margin: 0 5%;
+  }
 
-.introduction {
-  /* padding: 20px; */
-  /* background-color: rgba(0, 0, 0, 0.7); */
-   /* Semi-transparent black background */
-}
+  .introduction {
+    /* padding: 20px; */
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* Semi-transparent black background */
+  }
 
 </style>
   
