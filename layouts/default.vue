@@ -18,11 +18,11 @@
             <li>
               <NuxtLink to="/log">Adventure Log</NuxtLink>
             </li>
-            <!-- <li>
-              <NuxtLink to="/Achievements">Scroll of Achievements</NuxtLink>
-            </li> -->
             <li>
-              <NuxtLink to="/raven">Send a raven</NuxtLink>
+              <NuxtLink to="/achievements">Scroll of Achievements</NuxtLink>
+            </li>
+            <li>
+              <!-- <NuxtLink to="/raven">Send a raven</NuxtLink> -->
             </li>
           </ul>
         </nav>
