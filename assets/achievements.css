@@ -67,3 +67,9 @@ li {
 .fade-leave-to {
   opacity: 0;
 }
+
+.dark-mode .portfolio-card{
+  background-color: #f1e7d0;
+  color: #433422;
+  border: 1px solid #433422;
+}
