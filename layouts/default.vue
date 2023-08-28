@@ -30,11 +30,7 @@
             <li>
               <NuxtLink to="/achievements">Scroll of Achievements</NuxtLink>
             </li>
-            <li>
-              <!-- <NuxtLink to="/raven">Send a raven</NuxtLink> -->
-            </li>
           </ul>
-
 
         </nav>
         <div>
@@ -51,29 +47,6 @@
 <script setup>
   const colorMode = useColorMode()
   console.log(colorMode.preference)
-
-  const {
-  cookiesEnabled,
-  cookiesEnabledIds,
-  isConsentGiven,
-  isModalActive,
-  moduleOptions,
-} = useCookieControl()
-
-// example: react to a cookie being accepted
-watch(
-  () => cookiesEnabledIds.value,
-  (current, previous) => {
-    if (
-      !previous?.includes('google-analytics') &&
-      current?.includes('google-analytics')
-    ) {
-      // cookie with id `google-analytics` got added
-      window.location.reload() // placeholder for your custom change handler
-    }
-  },
-  { deep: true },
-)
 </script>
 
 <style>
