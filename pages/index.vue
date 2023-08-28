@@ -8,7 +8,8 @@
       <!-- Introduction -->
       <div class="introduction">
           <p>
-            <strong><aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong>
+            <!-- <strong><aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong> -->
+            <strong>Greetings, Travelers of the Digital Realm!</strong>
           </p>
           <Social/>
           <p>
