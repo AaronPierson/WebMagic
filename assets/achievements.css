@@ -22,6 +22,11 @@
   padding: 20px;
   margin: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+ul {
+  padding: 0;
 }
 
 .portfolio-card img {
@@ -36,6 +41,7 @@
 
 .portfolio-card p {
   margin-top: 10px;
+  
 }
 
 .portfolio-card a {

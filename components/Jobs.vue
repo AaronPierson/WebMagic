@@ -6,10 +6,10 @@
         <ul class="portfolio-grid">
             <li v-for="(job, index) in jobs" :key="index">
                 <div class="portfolio-card">
-                <!-- <nuxt-img :src="job.image" alt="Job Image" sizes="sm:30vw md:50vw lg:300px" quality="75"/> -->
+                <nuxt-img :src="job.image" alt="Job Image" sizes="sm:30vw md:50vw lg:300px" quality="75"/>
                 <h3>{{ job.title }}</h3>
                 <p>{{ job.description }}</p>
-                <a v-if="job.link" :href="job.link" target="_blank" rel="noopener">Visit Site</a>
+                <NuxtLink v-if="job.link" :href="job.link">More Info</NuxtLink >
                 </div>
             </li>
         </ul>
@@ -25,14 +25,15 @@ export default {
       jobs: [
         {
           title: 'Sustalytics',
-          description: 'Description of Job 1',
+          description: 'Bulit a Shopify app Enhanced clients sites and implemented REST API for workflow optimization.',
           image: '/img/OIP.jpg',
-          link: 'https://sustalytics.com/',
+          link: '/achievements/sustalytics',
         },
         {
-          title: 'Job 2',
-          description: 'Description of Job 2',
-          image: '/images/job2.jpg',
+          title: 'Freelance Web Developer',
+          description: 'Building interactive websites, maintaining, and enhancing user experiences.',
+          image: '/img/clement-h-95YRwf6CNw8-unsplash.webp',
+          link: '/achievements/freelance',
         },
         // Add more jobs
       ],
