@@ -1,0 +1,7 @@
+{
+  "date": "2023-09-06T06:30:30.398Z",
+  "preset": "service-worker",
+  "commands": {
+    "preview": "npx serve ./public"
+  }
+}
