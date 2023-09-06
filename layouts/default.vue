@@ -25,7 +25,7 @@
               <NuxtLink to="/lore">Lore</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/log">Adventure Log</NuxtLink>
+              <NuxtLink to="/blog">Adventure Log</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/achievements">Scroll of Achievements</NuxtLink>
@@ -34,7 +34,6 @@
 
         </nav>
         <div>
-
       </div>
       </header>
   <main>

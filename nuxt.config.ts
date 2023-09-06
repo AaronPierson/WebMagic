@@ -6,12 +6,10 @@ export default defineNuxtConfig({
   'nuxt-icon', 
   '@nuxt/image',
 ],
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-    },
-  },
   ssr: false,
+  nitro: {
+  preset: 'service-worker'
+  },
   app: {
     // pageTransition: { name: 'page', mode: 'out-in' }
   },

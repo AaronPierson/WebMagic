@@ -9,7 +9,9 @@
       <div class="introduction">
           <p>
             <!-- <strong><aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong> -->
-            <strong>Greetings, Travelers of the Digital Realm!</strong>
+            <h3>Work, study, and ideas..</h3>
+            <h4>Greetings, Travelers of the Digital Realm!</h4>
+
           </p>
           <Social/>
           <p>
