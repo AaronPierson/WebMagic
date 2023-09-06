@@ -1,4 +1,3 @@
 <template>
-
     <Blog />
 </template>
