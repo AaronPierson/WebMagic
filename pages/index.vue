@@ -52,6 +52,7 @@
           <p class="chapter-description">
             Behold, the ancient chronicles penned by scholars and bards, recounting the tales of webs spun and codes written.
           </p>
+          <NuxtLink to="/lore">Read More</NuxtLink>
         </div>
   
         <!-- Adventure Log Chapter -->
@@ -60,6 +61,8 @@
           <p class="chapter-description">
             Dive into my web development journey through blog posts and tales from the digital realm.
           </p>
+          <!-- You can change the limit value as needed -->
+          <Blog :limit="3"/>
         </div>
   
         <!-- Scroll of Achievements Chapter -->
