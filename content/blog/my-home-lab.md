@@ -1,7 +1,7 @@
 ---
 title: "Exploring My Proxmox Home Lab"
 date: "2023-08-25"
-author: "Your Name"
+author: "Aaron Pierson"
 excerpt: "Discover the world of virtualization with Proxmox and how it powers my home lab."
 #image: "/images/proxmox-lab.jpg" # Replace with the path to your featured image
 tags: ["Proxmox", "Home Lab", "Virtualization"]
