@@ -26,14 +26,14 @@
         <p>{{ blog.excerpt }}</p>
         <p>{{ blog.date }}</p>
         <!-- <p>Estimated read time: {{ readTime }} minute(s)</p> -->
-        <NuxtLink :to="blog._path">Read More</NuxtLink>
         <div v-for="(tag, tagIndex) in blog.tags" :key="tagIndex" class="tag">
           {{ tag }}
         </div>
+        <NuxtLink :to="blog._path">Read More</NuxtLink>
+
       </div>
     </div>
   </main>
 </template>
 
-<style scoped src="@/assets/achievements.css">
-</style>
+<style scoped src="@/assets/card.css"/>

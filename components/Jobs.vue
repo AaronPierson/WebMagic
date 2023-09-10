@@ -42,6 +42,4 @@ export default {
 };
 </script>
 
-<style scoped src="@/assets/achievements.css">
-
-</style>
+<style scoped src="@/assets/card.css"/>
