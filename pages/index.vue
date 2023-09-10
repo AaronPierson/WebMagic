@@ -13,9 +13,10 @@
             <h4>Greetings, Travelers of the Digital Realm!</h4>
 
           </p>
-          <Social/>
+            <Social/>
+            <!-- <h2>About Me</h2> -->
           <p>
-            🌐 I am Aaron Pierson, known across the enchanted lands as the Web Enchanter.
+            I am Aaron Pierson, known across the enchanted lands as the Web Enchanter 🌐🧙‍♂️.
           </p>
           <P>
             🔮🌠 My journey through the mystical realms of web development has been nothing short of magical. 
@@ -91,7 +92,7 @@
   
 <style scoped>
     .landing-page {
-    margin: 0 5%;
+    margin: 2em 5%;
   }
 
   .introduction {

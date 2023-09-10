@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   preset: 'service-worker'
   },
   app: {
-    // pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
 });
 

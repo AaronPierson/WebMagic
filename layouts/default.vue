@@ -1,8 +1,10 @@
 <template>
-  <!-- <head>
-    <link rel="stylesheet" 
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-  </head> -->
+  <head>
+    <!-- <link rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+     <link href="https://fonts.googleapis.com/css?family=Lugrasimo" rel="stylesheet">
+  </head>
+
   <header class="navbar">
         <nav class="nav-container">
 
@@ -36,7 +38,7 @@
         <div>
       </div>
       </header>
-  <main>
+  <main class="parchment-background">
     <slot />
   </main>
   <!-- <CookieControl locale="en" /> -->
@@ -71,7 +73,8 @@
 .navbar {
   background-image: url('/parchment-navbar.jpg'); /* Use a parchment-like background image */
   background-size: cover;
-  font-family: 'YourUniqueFont', cursive; /* Use a unique and creative font */
+  /* Use a unique and creative font */
+  /* font-family: 'YourUniqueFont', cursive;  */
   /* color: #5a442c; */
    /* Dark text color for readability */
   margin: 1%;
@@ -114,7 +117,9 @@
 
 body {
   /* Other styles for your container */
-  font-family: 'Marck Script', cursive;
+  /* font-family: 'Marck Script', cursive; */
+  font-family: 'Lugrasimo', cursive;
+
   /* Adjust text color to match parchment look */
   color: #090903;
   /* color: #5a442c; */
@@ -125,8 +130,9 @@ body {
   margin: 2em;
 
   /* Set the background image to your parchment texture */
-  background-image: url('/parchment-image.jpg'); /* Use the correct path to your image */
+  /* Use the correct path to your image */
   background-size: cover;
+  background-image: url('/parchment-image.jpg'); 
   background-attachment: fixed; /* Ensures the background remains fixed */
 
   /* Add a background color to ensure readability */
@@ -150,7 +156,11 @@ body {
   color: #ebf4f1;
 }
 .dark-mode .parchment-background{
-  background-color: #54544b;
+  /* background-color: #D3D3D3; */
+  /* background-color: #696969; */
+  background-color: transparent;
+  color: #ebf4f1;
+  box-shadow: none;
 }
 /* .sepia-mode body, .parchment-background {
   background-color: #f1e7d0;
@@ -161,6 +171,5 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
-
 
 </style>
