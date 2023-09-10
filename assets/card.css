@@ -63,16 +63,6 @@ li {
   list-style-type: none;
 }
 
-/* Fade Animation */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
 
 .dark-mode .portfolio-card{
   background-color: #f1e7d0;
