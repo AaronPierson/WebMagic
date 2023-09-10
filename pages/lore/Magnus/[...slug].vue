@@ -33,7 +33,7 @@
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
   padding: 20px; /* Add padding for content spacing */
-  font-family: 'Lugrasimo', cursive;
+  /* font-family: 'Lugrasimo', cursive; */
   color: #5a442c; /* Adjust text color to match parchment look */
   color: #090903; /* Adjust text color to match parchment look */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow properties */
@@ -68,10 +68,10 @@
 
 }
 
-/* Your existing content styles */
-.parchment-content {
-  /* Your chapter content styles */
+  /* Your existing content styles */
+  .parchment-content {
+    /* Your chapter content styles */
 
-}
+  }
 }
 </style>

@@ -12,7 +12,7 @@
 <style>
 .parchment-background {
   /* Other styles for your container */
-  font-family: 'Marck Script', cursive;
+  /* font-family: 'Marck Script', cursive; */
   /* Adjust text color to match parchment look */
   color: #090903;
   /* color: #5a442c; */
