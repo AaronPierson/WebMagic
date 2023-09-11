@@ -46,9 +46,19 @@
   };
   </script>
   
-  <!-- src="@/assets/achievements.css" -->
 <style scoped >
 
+.portfolio {
+    margin: 2em 5%;
+}
 
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
 
+a:hover {
+  color: #884e19; /* Change color on hover */
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="books">
       <h1>Lore</h1>
       <p>Here is where you can find the lore of the world. Books collected over the years.</p>
       <div class="books-grid">
@@ -23,7 +23,7 @@
     </div>
   </template>
 
-  <style scoped>
+  <style>
     .chapter {
       background: #f6ead4; /* Parchment-like background color */
       border: 2px solid #d4a35a; /* Subtle border */
@@ -55,5 +55,20 @@
       /* 20px grid gap to add space between the books */
       grid-gap: 20px;
     }
+
+    
+.books {
+    margin: 2em 5%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #884e19; /* Change color on hover */
+}
 </style>
   
