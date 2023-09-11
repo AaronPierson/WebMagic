@@ -25,7 +25,7 @@ export default {
       jobs: [
         {
           title: 'Sustalytics',
-          description: 'Bulit a Shopify app Enhanced clients sites and implemented REST API for workflow optimization.',
+          description: 'Bulit a Shopify app, Enhanced clients sites, implemented APIs for workflow optimization.',
           image: '/img/OIP.jpg',
           link: '/achievements/sustalytics',
         },
