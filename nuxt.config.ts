@@ -6,10 +6,10 @@ export default defineNuxtConfig({
   'nuxt-icon', 
   '@nuxt/image',
 ],
-  ssr: false,
-  nitro: {
-  preset: 'service-worker'
-  },
+  // ssr: false,
+  // nitro: {
+  // preset: 'service-worker'
+  // },
   app: {
     // pageTransition: { name: 'page', mode: 'out-in' }
   },
