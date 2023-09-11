@@ -6,7 +6,7 @@
         <ul class="portfolio-grid">
             <li v-for="(job, index) in jobs" :key="index">
                 <div class="portfolio-card">
-                <nuxt-img :src="job.image" alt="Job Image" sizes="sm:30vw md:50vw lg:300px" quality="75"/>
+                <!-- <nuxt-img :src="job.image" alt="Job Image" sizes="sm:30vw md:50vw lg:300px" quality="75"/> -->
                 <h3>{{ job.title }}</h3>
                 <p>{{ job.description }}</p>
                 <NuxtLink v-if="job.link" :href="job.link">More Info</NuxtLink >
