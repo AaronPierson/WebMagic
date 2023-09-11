@@ -7,12 +7,9 @@
       </h1>
       <!-- Introduction -->
       <div class="introduction">
-          <p>
-            <!-- <strong><aniText text="Greetings, Travelers of the Digital Realm!"></aniText></strong> -->
-            <h3>Work, study, and ideas..</h3>
+            <h3><aniText text="Work, study, and ideas..."></aniText></h3>
+            <!-- <h3>Work, study, and ideas..</h3> -->
             <h4>Greetings, Travelers of the Digital Realm!</h4>
-
-          </p>
             <Social/>
             <!-- <h2>About Me</h2> -->
           <p>
