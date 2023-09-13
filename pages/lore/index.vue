@@ -12,12 +12,12 @@
         </div>
         
         <!-- Raelin book of lore -->
-        <div class="chapter">
+        <!-- <div class="chapter">
           <h2 class="chapter-title"><NuxtLink to="/lore/raelin">Raelin</NuxtLink></h2>
           <p class="chapter-description">
             Join Raelin on an epic journey where the web is a canvas, and developers, modern bards. In Raelin's Ballads, stories of heroics are spun from code, and the digital world comes alive with creativity. These are tales of the web's magic, where innovation and artistry meet in a harmonious symphony.
           </p>
-        </div>
+        </div> -->
       </div>
 
     </div>
