@@ -46,7 +46,7 @@
       <div class="chapters">
         <!-- Lore Chapter -->
         <div class="chapter">
-          <h2 class="chapter-title">Lore</h2>
+          <NuxtLink to="/lore"><h2 class="chapter-title">Lore</h2></NuxtLink>
           <p class="chapter-description">
             Behold, the ancient chronicles penned by scholars and bards, recounting the tales of webs spun and codes written.
           </p>
