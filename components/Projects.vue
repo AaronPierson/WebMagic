@@ -51,6 +51,13 @@
             image: '/images/project2.jpg',
             link: 'https://github.com/AaronPierson/PasswordManger',
           },
+          {
+            title: 'Name Generator',
+            type: 'UWP Application',
+            description: 'Random name generator for D&D and other games.',
+            image: '/images/project2.jpg',
+            link: 'https://github.com/AaronPierson/NameGenerator',
+          },
           // Add more projects
         ],
        
