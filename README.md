@@ -32,3 +32,10 @@ In the "Achievement Showcase," I've curated a list of my proudest achievements, 
 
 Connect with me through social media, where I share my latest adventures in the world of web development and fantasy. My social links provide a gateway to follow my journey, stay updated on my projects, and engage with the web development and fantasy communities.
 
+##### need to do:
+- [ ] add a link to the website
+- [ ] add a favicon
+- [ ] add a site image
+- [ ] style dark/light mode toggle
+- [ ] add animations
+- [ ] add splash screen
