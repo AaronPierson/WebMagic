@@ -92,11 +92,5 @@
     margin: 2em 5%;
   }
 
-  .introduction {
-    /* padding: 20px; */
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    /* Semi-transparent black background */
-  }
-
 </style>
   

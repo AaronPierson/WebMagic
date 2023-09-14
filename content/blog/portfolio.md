@@ -23,17 +23,15 @@ To bring this fantasy world to life, I employed a range of web technologies:
 
 - **Vue.js:** The core of my website, Vue.js allowed me to create dynamic and interactive elements.
 
-- **NES.css:** I used NES.css to give the site a retro gaming feel, reminiscent of classic fantasy video games.
-
 - **Nuxt.js:** Nuxt provided the structure and routing needed for a smooth user experience.
 
 - **Markdown Content:** With Nuxt Content, managing and updating content became a breeze.
 
 ## Features
 
-### Interactive Terminal
+### Lore
 
-One of the highlights of my portfolio is the interactive terminal. Visitors can explore my projects and achievements by typing commands, just like a character in an adventure game.
+The Lore section invites visitors to delve into the ancient chronicles penned by scholars and bards, recounting the tales of webs spun and codes written. Here, the history of the real world intertwines with the rich tapestry of fantasy history. It's a place where you can explore the connections between the digital realm and the stories that have inspired it throughout the ages. Uncover the hidden wisdom and magic that underlie the web and its development.
 
 ### Achievement Showcase
 
