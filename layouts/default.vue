@@ -7,7 +7,6 @@
 
   <header class="navbar">
         <nav class="nav-container">
-
                   <!-- <h1>Color mode: {{ $colorMode.value }}</h1> -->
         <select v-model="$colorMode.preference"  >
           <option value="system">System</option>
@@ -37,7 +36,7 @@
         </nav>
         <div>
       </div>
-      </header>
+  </header>
   <main class="parchment-background">
     <slot />
   </main>
@@ -167,6 +166,8 @@ body {
 
 .parchment-background {
   background-color: #f1e7d0;
+  margin: 0% 5% 0% 5%;
+  padding: 1%;
   color: #433422;
 }
 

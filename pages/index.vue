@@ -89,7 +89,13 @@
   
 <style scoped>
     .landing-page {
-    margin: 2em 5%;
+    margin: 2em 10%;
+  }
+
+  body{
+      /* Add a soft border to mimic the appearance of paper */
+  border-radius: 5px; /* Soften the edges */
+  box-sizing: border-box; /* Include the border in the element's dimensions */
   }
 
 </style>
