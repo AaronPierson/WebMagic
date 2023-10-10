@@ -23,6 +23,13 @@
     data() {
       return {
         projects: [
+        {
+            title: 'Shinobi-Sprint',
+            type: 'Video Game',
+            description: '2D platformer game made in Godot.',
+            image: '/images/project1.jpg', // Replace with the path to your image
+            link: 'https://github.com/AaronPierson/Shinobi-Sprint',
+          },
           {
             title: 'FitOtaku',
             type: 'Web Application',
@@ -45,7 +52,7 @@
             link: 'https://github.com/AaronPierson/TCGLibrary',
           },
           {
-            title: 'PasswordManger - Class Project',
+            title: 'Password Manger',
             type: 'Python Application',
             description: 'Application for managing your passwords.',
             image: '/images/project2.jpg',
