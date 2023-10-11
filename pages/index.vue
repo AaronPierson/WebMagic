@@ -6,41 +6,19 @@
         Aaron Pierson
       </h1>
       <!-- Introduction -->
-      <div class="introduction">
-            <h3><aniText text="Work, study, and ideas..."></aniText></h3>
-            <!-- <h3>Work, study, and ideas..</h3> -->
-            <h4>Greetings, Travelers of the Digital Realm!</h4>
-            <Social/>
-            <!-- <h2>About Me</h2> -->
-          <p>
-            I am Aaron Pierson, known across the enchanted lands as the Web Enchanter 🌐🧙‍♂️.
-          </p>
-          <P>
-            🔮🌠 My journey through the mystical realms of web development has been nothing short of magical. 
-            With a trusty staff in one hand and a keyboard in the other, I have ventured through the ever-evolving landscapes of code, 
-            harnessing the arcane powers of PHP, C#, and JavaScript.
-            <p>
-            📖✨In my enchanted grimoire, 
-            I have inscribed the secrets of crafting both the front-end and back-end realms.
-            But my journey doesn't end there! 
-            I've explored the lands of Android, wielding the Kotlin language to craft powerful mobile incantations. 
-            I've ventured into the world of C#, conjuring desktop enchantments for your devices.
-            </p>
-
-            <p>
-              🏰🔐Along this quest, I've ventured into the treacherous territories of database design, conquering MySQL, PostgreSQL. 
-              I've forged alliances with DevOps and embraced the sacred rituals of CI/CD with old man jenkins for deployment.
-              And as a guardian of knowledge, I've delved into the secrets of server sorcery, 
-              mastering the art of deploying and securing web realms. 
-              I've even built my own fortress of digital solitude to protect my creations.
-            </p>
-
-            💫 So, fellow adventurers, 
-            whether you seek to embark on a new web journey or are in need of a seasoned web enchanter to breathe life into your digital dreams,
-            know that I stand ready to cast the spells of web enchantment upon your quest. 
-            Together, we shall forge a legacy in the digital tapestry of existence! 💫
-            </P>
-      </div>
+    <div class="introduction">
+      <h3><aniText text="Work, study, and ideas..."></aniText></h3>
+      <h4>Greetings, Travelers of the Digital Realm!</h4>
+      <Social/>
+      <p>
+        I am Aaron Pierson, known across the enchanted lands as the Web Enchanter 🌐🧙‍♂️.
+      </p>
+      <p>
+        🔮🌠 My journey through the mystical realms of web development has been nothing short of magical. With a trusty staff in one hand and a keyboard in the other, I have ventured through the ever-evolving landscapes of code, harnessing the arcane powers of PHP, C#, and JavaScript.
+      </p>
+      <!-- Add a "Read More" link to direct users to the "About Me" page -->
+      <NuxtLink to="/lore/aaron">Read More</NuxtLink>
+    </div>
   
       <!-- Chapters -->
       <div class="chapters">
@@ -96,6 +74,33 @@
       /* Add a soft border to mimic the appearance of paper */
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
+  }
+
+
+  /* For screens with a maximum width of 768px, show the sidebar */
+  @media screen and (max-width: 768px) {
+
+    .landing-page {
+      margin: 2em 5%;
+    }
+
+    .introduction{
+      font-size: .8em;
+    }
+
+    .chapter-title{
+      font-size: 1.5em;
+    }
+
+    .chapter-description{
+      font-size: 1em;
+    }
+
+    a{
+      font-size: .7em;
+      font-weight: bold;
+    }
+
   }
 
 </style>

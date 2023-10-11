@@ -5,6 +5,13 @@
       <div class="books-grid">
         <!-- Magnus book of lore -->
         <div class="chapter">
+          <h2 class="chapter-title"><NuxtLink to="/lore/aaron">Aaron</NuxtLink></h2>
+          <p class="chapter-description">
+            🔮🌠 My journey through the mystical realms of web development has been nothing short of magical. With a trusty staff in one hand and a keyboard in the other, I have ventured through the ever-evolving landscapes of code, harnessing the arcane powers of PHP, C#, and JavaScript.
+          </p>
+        </div>
+
+        <div class="chapter">
           <h2 class="chapter-title"><NuxtLink to="/lore/magnus">Magnus</NuxtLink></h2>
           <p class="chapter-description">
             Behold, a scholarly tapestry woven through ages, where knowledge is the guiding star and code is the ancient language. In Magnus's Chronicles, delve into the meticulous accounts of web development's history, its evolution, and the secrets buried deep within its virtual realm.
@@ -23,7 +30,7 @@
     </div>
   </template>
 
-  <style>
+  <style scoped>
     .chapter {
       background: #f6ead4; /* Parchment-like background color */
       border: 2px solid #d4a35a; /* Subtle border */
@@ -70,5 +77,31 @@ a{
 a:hover {
   color: #884e19; /* Change color on hover */
 }
+
+/* For screens with a maximum width of 768px, show the sidebar */
+  @media screen and (max-width: 768px) {
+
+    .landing-page {
+      margin: 2em 5%;
+    }
+
+    .introduction{
+      font-size: .8em;
+    }
+
+    .chapter-title{
+      font-size: 1.5em;
+    }
+
+    .chapter-description{
+      font-size: 1em;
+    }
+
+    a{
+      font-size: .7em;
+      font-weight: bold;
+    }
+
+  }
 </style>
   
