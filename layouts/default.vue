@@ -14,7 +14,15 @@
           <option value="dark">Dark</option>
           <!-- <option value="sepia">Sepia</option> -->
         </select>
+      <!-- Burger menu -->
+      <button class="style-module--Burger--1ab74" @click="toggleSidebar">
+          <!-- Add your burger icon elements here -->
+          <span>---</span>
+          <span>---</span>
+          <span>---</span>
 
+      </button>
+        <div class="style-module--SideBarWrapper--e7152" :class="{ 'open': sidebarOpen }">>
           <div class="logo">
             <NuxtLink to="/"></NuxtLink>
           </div>
@@ -32,6 +40,10 @@
               <NuxtLink to="/achievements">Scroll of Achievements</NuxtLink>
             </li>
           </ul>
+        </div>
+        <!-- Sidebar backdrop -->
+        <div class="style-module--SideBarBackdrop--fb470" @click="closeSidebar" :class="{ 'open': sidebarOpen }">
+        </div>
 
         </nav>
         <div>
@@ -45,8 +57,19 @@
 </template>
 
 <script setup>
-  const colorMode = useColorMode()
-  console.log(colorMode.preference)
+const colorMode = useColorMode()
+console.log(colorMode.preference)
+
+const sidebarOpen = ref(false)
+
+const toggleSidebar = () => {
+  sidebarOpen.value = !sidebarOpen.value
+}
+
+const closeSidebar = () => {
+  sidebarOpen.value = false
+}
+  
 </script>
 
 <style>
@@ -170,5 +193,66 @@ body {
   padding: 1%;
   color: #433422;
 }
+
+/* Sidebar Container */
+.style-module--SideBarWrapper--e7152 {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Adjust the initial position */
+  width: 300px; /* Adjust the sidebar width */
+  height: 100%;
+  background-color: #fff; /* Set the background color of the sidebar */
+  transition: right 0.3s ease; /* Add a smooth transition for opening and closing */
+}
+
+/* Sidebar Opened State */
+.style-module--SideBarWrapper--e7152.open {
+  right: 0; /* When open, the sidebar should be fully visible */
+}
+
+/*
+Sidebar Backdrop
+.style-module--SideBarBackdrop--fb470 {
+  position: fixed;
+  top: 0;
+  right: 0; 
+  /* Position the backdrop on the right side */
+  /* width: 100%;  */
+  /* Cover the full width of the viewport */
+  /* height: 100%;  */
+  /* Cover the full height of the viewport */
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+  /* Semi-transparent black background color */
+  /* transition: opacity 0.3s ease;  */
+  /* Add a smooth transition for opening and closing */
+  /* opacity: 0;  */
+  /* Initially set to transparent */
+/* } */
+
+/* Sidebar Opened State (Backdrop) */
+.style-module--SideBarBackdrop--fb470.open {
+  opacity: 1; /* When the sidebar is open, make the backdrop fully visible */
+}
+
+
+/* Sidebar Navigation Links */
+.style-module--SideBarWrapper--e7152 .nav-menu {
+  display: flex;
+  flex-direction: column; /* Arrange links vertically */
+}
+
+.style-module--SideBarWrapper--e7152 .nav-menu a {
+  display: block;
+  padding: 10px 0; /* Adjust the padding to control the spacing between items */
+  text-align: center; /* Align text to the left within each block */
+}
+
+/* Burger Menu Icon */
+.style-module--Burger--1ab74 {
+  cursor: pointer;
+  padding: 10px;
+}
+
+
 
 </style>
