@@ -69,3 +69,21 @@ li {
   color: #433422;
   border: 1px solid #433422;
 }
+
+
+  /* For screens with a maximum width of 768px, show the sidebar */
+  /* @media screen and (max-width: 768px) {
+    .chapter {
+      margin: 1em 0;
+    }
+
+    p{
+      font-size: 1em;
+    }
+
+    a{
+      font-size: .7em;
+      font-weight: bold;
+    }
+
+  } */
