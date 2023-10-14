@@ -85,21 +85,45 @@ a:hover {
       margin: 2em 5%;
     }
 
+    /* Adjust header text size */
+    h1, h2, h3 {
+      font-size: 1em;
+    }
+
+    p{
+      font-size: .8em;
+    }
+
     .introduction{
       font-size: .8em;
     }
 
-    .chapter-title{
-      font-size: 1.5em;
+    .chapter-title {
+    font-size: 1.2em; /* Reduce font size for chapter titles */
+  }
+
+    .chapter-description {
+      font-size: 0.7em; /* Reduce font size for chapter descriptions */
+      /* Prevent text from wrapping to the next line */
+      /* white-space: nowrap;  */
+      /* Hide any overflow */
+      /* overflow: hidden;  */
+      /* Show ellipsis for truncated text */
+      /* text-overflow: ellipsis;  */
     }
 
-    .chapter-description{
-      font-size: 1em;
-    }
-
-    a{
-      font-size: .7em;
+    a {
+      font-size: 0.7em; /* Reduce font size for links */
       font-weight: bold;
+    }
+
+    .books-grid {
+      /* Use CSS Grid to control the layout of the books */
+      display: grid;
+      /* 300px minmax ensures that the grid items are not squished too small */
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      /* 20px grid gap to add space between the books */
+      grid-gap: 10px;
     }
 
   }

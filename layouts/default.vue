@@ -39,22 +39,21 @@
     <!-- Mobile Sidebar Navigation Bar (as you already have) -->
     <div class="navbar-mobile">
         <nav class="nav-container">
-        <!-- <h1>Color mode: {{ $colorMode.value }}</h1> -->
         <!-- Sidebar container -->
         <div class="nav-sidebar" :class="{ 'open': sidebarOpen }">
-          <select v-model="$colorMode.preference"  >
+          <!-- <button class="close-menu-button" @click="closeSidebar"> -->
+            <!-- Add your close button icon elements here -->
+            <!-- <span>&times;</span> -->
+            <!-- <span>Close</span>
+          </button> -->
+          <select v-model="$colorMode.preference" class="color-mode" >
           <option value="system">System</option>
           <option value="light">Light</option>
           <option value="dark">Dark</option>
           <!-- <option value="sepia">Sepia</option> -->
         </select>
           <!-- Close button for mobile -->
-          <!-- <button class="close-menu-button" @click="closeSidebar"> -->
-            <!-- Add your close button icon elements here -->
-            <!-- <span>&times;</span>
-            <span>Close</span>
 
-          </button> -->
           <div class="logo">
             <NuxtLink to="/"></NuxtLink>
           </div>
@@ -378,6 +377,10 @@ Sidebar Backdrop
   /* Sidebar styles */
   .navbar-mobile {
     display: block; /* Show the sidebar */
+  }
+
+  .color-mode{
+    margin: 25px;
   }
 
   .nav-container{

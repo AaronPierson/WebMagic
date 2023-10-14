@@ -89,11 +89,11 @@
     }
 
     .chapter-title{
-      font-size: 1.5em;
+      font-size: 1em;
     }
 
     .chapter-description{
-      font-size: 1em;
+      font-size: .8em;
     }
 
     a{
@@ -101,6 +101,14 @@
       font-weight: bold;
     }
 
+    p{
+      font-size: .8em;
+    }
+
+    /* Adjust header text size */
+    h1, h2, h3 {
+      font-size: 1em;
+    }
   }
 
 </style>

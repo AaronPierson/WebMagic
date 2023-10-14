@@ -78,13 +78,10 @@ li {
 
 
   /* For screens with a maximum width of 768px, show the sidebar */
-  /* @media screen and (max-width: 768px) {
-    .chapter {
-      margin: 1em 0;
-    }
+  @media screen and (max-width: 768px) {
 
     p{
-      font-size: 1em;
+      font-size: .8em;
     }
 
     a{
@@ -92,4 +89,13 @@ li {
       font-weight: bold;
     }
 
-  } */
+    /* Adjust header text size */
+    h1, h2, h3 {
+      font-size: 1em;
+    }
+
+    .tag{
+      font-size: .7em;
+    }
+
+  }

@@ -19,4 +19,24 @@ a{
 a:hover {
   color: #884e19; /* Change color on hover */
 }
+
+
+/* For screens with a maximum width of 768px, show the sidebar */
+@media screen and (max-width: 768px) {
+
+/* Adjust header text size */
+h1, h2, h3 {
+  font-size: 1em;
+}
+
+p{
+  font-size: .8em;
+}
+
+a {
+  font-size: 0.7em; /* Reduce font size for links */
+  font-weight: bold;
+}
+
+}
 </style>
