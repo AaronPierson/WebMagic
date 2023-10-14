@@ -10,7 +10,7 @@
                     <h3>{{ project.title }}</h3>
                     <h3>{{ project.type }}</h3>
                     <p>{{ project.description }}</p>
-                    <NuxtLink v-if="project.link" :href="project.link">More Info</NuxtLink >
+                    <NuxtLink v-if="project.link" target="blank" :href="project.link">More Info</NuxtLink >
                 </div>
             </li>
         </ul>

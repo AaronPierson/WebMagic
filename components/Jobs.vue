@@ -9,7 +9,7 @@
                 <!-- <nuxt-img :src="job.image" alt="Job Image" sizes="sm:30vw md:50vw lg:300px" quality="75"/> -->
                 <h3>{{ job.title }}</h3>
                 <p>{{ job.description }}</p>
-                <NuxtLink v-if="job.link" :href="job.link">More Info</NuxtLink >
+                <NuxtLink v-if="job.link" target="blank" :href="job.link">More Info</NuxtLink >
                 </div>
             </li>
         </ul>
