@@ -40,7 +40,7 @@
           {
             title: 'Gaming-Hub',
             type: 'Xamarin Application',
-            description: 'Moblie application for gamers to find games and stats.',
+            description: 'Mobile application for gamers to find games and stats.',
             image: '/images/project2.jpg',
             link: 'https://github.com/AaronPierson/Gaming-Hub'
           },
