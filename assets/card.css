@@ -18,7 +18,7 @@
 .portfolio-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 20px;
   margin: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -47,8 +47,9 @@ ul {
 .portfolio-card a {
   display: inline-block;
   margin-top: 10px;
-  /* background-color: #007BFF; */
-  /* color: #fff; */
+  background-color: #f1e7d0;
+  color: #091a28;
+  border: 1px solid #091a28 ;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -63,11 +64,16 @@ li {
   list-style-type: none;
 }
 
-
 .dark-mode .portfolio-card{
   background-color: #f1e7d0;
   color: #433422;
-  border: 1px solid #433422;
+  border: 1px solid #FFD700 ;
+}
+
+.dark-mode .portfolio-card a{
+  background-color: #433422 ;
+  color: #FFD700 ;
+  border: 1px solid #433422 ;
 }
 
 

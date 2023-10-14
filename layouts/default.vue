@@ -164,14 +164,34 @@ const closeSidebar = () => {
   margin-right: 20px;
 }
 
-.nav-menu a {
+a {
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease;
 }
 
-.nav-menu a:hover {
+a:hover {
   color: #884e19; /* Change color on hover */
+}
+
+a:visited {
+  color: #57351f;
+  /* Other styles for visited links */
+}
+
+a:visited:hover {
+  color: #884e19;
+  /* Other styles for visited links */
+}
+
+.dark-mode a:visited {
+  color: #FFD700;
+  /* Other styles for visited links */
+}
+
+.dark-mode a:visited:hover {
+  color: #884e19;
+  /* Other styles for visited links */
 }
 
 body {
