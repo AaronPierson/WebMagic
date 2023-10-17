@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <title>Aaron Pierson</title>
+  </head>
     <div class="landing-page">
       <!-- Mystical Cover Image -->
       <!-- Include a mystical cover image that sets the magical tone -->
@@ -75,7 +78,6 @@
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
   }
-
 
   /* For screens with a maximum width of 768px, show the sidebar */
   @media screen and (max-width: 768px) {

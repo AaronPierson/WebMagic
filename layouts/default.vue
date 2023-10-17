@@ -2,7 +2,8 @@
   <head>
     <!-- <link rel="stylesheet" 
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
-     <link href="https://fonts.googleapis.com/css?family=Lugrasimo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lugrasimo" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
   </head>
 
   <header class="navbar">
@@ -272,6 +273,7 @@ body {
 } */
 
 .parchment-background {
+  border-radius: 10px;
   background-color: #f1e7d0;
   margin: 0% 5% 0% 5%;
   padding: 1%;
