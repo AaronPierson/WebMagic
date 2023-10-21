@@ -1,10 +1,7 @@
 <template>
-  <head>
-    <!-- <link rel="stylesheet" 
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Lugrasimo" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  </head>
+  <!-- <head> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lugrasimo" rel="stylesheet"> -->
+  <!-- </head> -->
 
   <header class="navbar">
 
@@ -110,16 +107,6 @@ const closeSidebar = () => {
 </script>
 
 <style>
-
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-}
 
 @media screen and (min-width: 1600px) {
   header.navbar{

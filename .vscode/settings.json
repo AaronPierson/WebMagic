@@ -4,5 +4,6 @@
         "Magnus",
         "Otaku",
         "Raelin"
-    ]
+    ],
+    "nuxt.isNuxtApp": false
 }

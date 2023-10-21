@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <title>Aaron Pierson</title>
-  </head>
     <div class="landing-page">
       <!-- Mystical Cover Image -->
       <!-- Include a mystical cover image that sets the magical tone -->
@@ -77,6 +74,8 @@
       /* Add a soft border to mimic the appearance of paper */
   border-radius: 5px; /* Soften the edges */
   box-sizing: border-box; /* Include the border in the element's dimensions */
+  font-family: 'Lugrasimo', cursive;
+
   }
 
   /* For screens with a maximum width of 768px, show the sidebar */
