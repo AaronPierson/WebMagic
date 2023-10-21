@@ -1,3 +1,5 @@
+[Go Back](/lore)
+
 # About Me
 
 I am Aaron Pierson, known across the enchanted lands as the Web Enchanter 🌐🧙‍♂️.

@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # Chapter: Introduction to the Web of Fate
 
 In the mystical annals of the Web of Fate, where digital destinies are woven by unseen hands, there exists an intricate and enchanting history that transcends time and space. This chapter is a parchment of knowledge, unearthing the historical tapestry of the Web of Fate and the earliest interpretations of this magical domain.

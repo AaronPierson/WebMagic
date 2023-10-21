@@ -1,3 +1,5 @@
+[Go Back](/lore)
+
 ### Book: "The Web Unveiled: Aeluria's Digital Mysteries"
 
 #### Table of Contents

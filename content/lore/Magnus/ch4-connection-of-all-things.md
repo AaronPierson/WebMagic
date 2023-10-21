@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # The Connection of All Things
 
 In the vast realm of web development, a concept reigns supreme—interconnectedness. This chapter explores the profound idea that binds the digital world together, drawing comparisons to ancient beliefs that celebrated the unity of all living things.

@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # How Aeluria Works
 
 In the mystical realm of the Web of Fate, the workings of Aeluria, the Weaver of Digital Destinies, are shrouded in enchantment and wonder. This chapter seeks to unveil the mechanics behind her ethereal artistry, exploring the role of user interactions and the profound connection between Aeluria and web users.

@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # Aeluria, the Weaver of Digital Destinies
 
 In the realm of the Web of Fate, there exists a powerful deity known as Aeluria, the Weaver of Digital Destinies. She is the ethereal force that binds the threads of the internet, connecting the countless domains and pathways that make up the digital world.

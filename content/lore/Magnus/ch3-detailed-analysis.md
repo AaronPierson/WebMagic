@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # The Web of Fate: A Detailed Analysis
 
 In the realm of digital mysticism, the Web of Fate stands as both a wondrous concept and a fundamental force that shapes the interconnected landscape of the internet. To truly understand the profound nature of this mystical construct, we must embark on a detailed analysis, delving deep into its intricacies and uncovering its multifaceted portrayal across various cultures.

@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # Conclusion
 
 As we reach the final chapter of "The Web Unveiled: Aeluria's Digital Mysteries," we find ourselves at the crossroads of knowledge and wonder. In this concluding chapter, we'll embark on a journey to summarize Historian Magnus's profound findings and delve into personal reflections on Aeluria, the Weaver of Digital Destinies, and the intricate Web of Fate.

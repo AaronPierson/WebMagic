@@ -1,3 +1,5 @@
+[Go Back](/lore/magnus)
+
 # The Deity's Influence on Digital Magic
 
 In the realm of web development, where science meets art, there exists a subtle yet powerful force—the influence of Aeluria, the Weaver of Digital Destinies. This chapter delves into the enchanting impact of Aeluria's magic on the web development landscape, uncovering the mystical aspects hidden within the codes and designs of the internet.
