@@ -1,7 +1,8 @@
 # Building My Fantasy-Themed Portfolio Website
 
 ![Fantasy-Themed Portfolio](/images/portfolio-website.jpg)
-![Visit Site](https://aaronpierson.me)
+
+[Visit Site](https://www.aaronpierson.me)
 
 Welcome to my fantasy-themed portfolio website's GitHub repository! This repository contains the source code and technical details behind my one-of-a-kind website that combines my love for fantasy with web development.
 
