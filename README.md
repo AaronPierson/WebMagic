@@ -1,6 +1,7 @@
 # Building My Fantasy-Themed Portfolio Website
 
 ![Fantasy-Themed Portfolio](/images/portfolio-website.jpg)
+[Visit Site]("https://aaronpierson.me")
 
 Welcome to my fantasy-themed portfolio website's GitHub repository! This repository contains the source code and technical details behind my one-of-a-kind website that combines my love for fantasy with web development.
 
@@ -26,15 +27,15 @@ The "Lore" section is a unique feature of my portfolio. It invites visitors to d
 
 ### Achievement Showcase
 
-In the "Achievement Showcase," I've curated a list of my proudest achievements, ranging from web development projects to server management feats. Each achievement comes with its own story and challenges, providing visitors with insight into my skills and expertise.
+In the "Achievement Showcase," I've curated a list of my proudest achievements, ranging from web development projects to server management feats. Each achievement comes with its own story and challenges, providing visitors with an insight into my skills and expertise.
 
 ### Social Links
 
-Connect with me through social media, where I share my latest adventures in the world of web development and fantasy. My social links provide a gateway to follow my journey, stay updated on my projects, and engage with the web development and fantasy communities.
+Connect with me through social media, where I share my latest adventures in the world of web development and fantasy. My social links provide a gateway to follow my journey, stay updated on my projects, and engage with web development and fantasy communities.
 
 ##### need to do:
-- [ ] add a link to the website
-- [ ] add a favicon
+- [x] add a link to the website
+- [x] add a favicon
 - [ ] add a site image
 - [ ] style dark/light mode toggle
 - [ ] add animations
